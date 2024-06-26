@@ -1,0 +1,73 @@
+.navbar{
+    background-color: #fff;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .12), inset 0 -1px 0 0 #dadce0;
+    height: 75px;
+}
+.btn-primary{
+    background-color: #e45226;
+    border-color: #e45226;
+}
+.btn-primary:hover{
+    background-color: #e45226;
+    border-color: #e45226;
+}
+.btn-primary:active{
+    background-color: #e45226;
+    border-color: #e45226;
+    opacity: 0.5;
+}
+.btn-outline-primary{
+    color: #63351b;
+    border-color: #63351b;
+}
+.btn-outline-primary:hover{
+    color: #63351b;
+    border-color: #63351b;
+    background-color: #fff;
+}
+.btn-outline-primary:active{
+    color: #63351b;
+    border-color: #63351b;
+    background-color: #fff;
+    opacity: 0.5;
+}
+.badge{
+    background-color: #63351b !important;
+}
+.dishes{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.dish-card>div>div>div>div>.card-title {
+    font-size: 14px;
+}
+
+.dish-card>div>div>div>div>p {
+    font-size: 12px;
+}
+
+.dish-card>div>div>div>div>a {
+    font-size: 12px;
+    height: fit-content;
+}
+.qty-btn{
+    background-color: #fff;
+    border: 1px solid #e45226;
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+/*.add-to-cart{
+    margin-left: 430px;
+}*/
+.social-icons{
+    font-size: 28px;
+    color: #e45226;
+}
